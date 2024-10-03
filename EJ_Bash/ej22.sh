@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [ $# -ne 1 ]; then
-  echo "Uso: $0 <directorio>"
-  exit 1
-fi
-
 directorio="$1"
 
 if [ ! -d "$directorio" ]; then
