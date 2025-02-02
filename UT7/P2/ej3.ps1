@@ -1,0 +1,1 @@
+﻿New-SmbShare -Name "aso" -Path "C:\ASO"

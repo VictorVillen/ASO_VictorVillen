@@ -1,0 +1,1 @@
+﻿Get-SmbShare | Where-Object {$_.Special -eq $false}
